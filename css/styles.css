@@ -7,15 +7,16 @@
     font-family: Anta;
     src: url(.\assets\fonts\Orbitron-VariableFont_wght.ttf);
   }
-html,
-body {
+html,body {
     width: 100%;
     height: 100%;
     font-family: 'Anta';
     background-color: #282828;
     color: #d3d3d3;
-    overflow-x: hidden;
+    overflow: hidden;
+
 }
+
 .background {
     width:100%; 
     float:left; 
@@ -70,7 +71,6 @@ p {
     line-height: 1.7;
     margin-bottom: 20px;
 }
-
 .wide-space {
     letter-spacing: 1.6px;
 }
@@ -167,8 +167,7 @@ aside {
 
 footer {
     flex: 0 0 auto;
-		/* styling */
-		padding: 3rem;
+    padding: 3rem;
 		background: #eee;
     background-color:#0e0e0e;
 }
@@ -420,7 +419,7 @@ textarea {
     position: relative;
     margin: 0 auto;
     max-width: 650px;
-    overflow:hidden;
+    overflow-x:hidden;
 }
 
 .gallery-box .gallery-box-caption {
