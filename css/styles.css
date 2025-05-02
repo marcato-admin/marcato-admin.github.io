@@ -23,6 +23,8 @@
     .btn {
         width: 25dvh;
         height: 25dvh;
+        margin-right: 45%;
+        margin-left: 45%;
     }
 }
 
