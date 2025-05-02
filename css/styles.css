@@ -107,7 +107,7 @@ p {
 /* shop button */
 .container {
     margin-left: 45%;
-    margin-right: 45%;
+    margin-right: 50%;
 }
 .btn {
     font-family: 'Anta';
@@ -348,7 +348,7 @@ footer {
 
 header {
     position: relative;
-    min-height: auto;
+    min-height: 100dvh;
     text-align: center;
     color: #fff;
     width: 100%;
