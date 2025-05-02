@@ -444,6 +444,13 @@ footer {
 
 }
 
+@media (max-width: 1000px) {
+    .fill {
+        background: #0e0e0e;
+        min-height: 100dvh;
+    }
+}
+
 .form-control {
     display: block;
     width: 100%;
