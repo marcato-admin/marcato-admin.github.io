@@ -15,6 +15,17 @@
     font-weight: 300;
 }
 
+@media (max-width: 1000px) {
+    .fill {
+        background: #0e0e0e;
+        min-height: 100dvh;
+    }
+    .btn {
+        width: 25dvh;
+        height: 25dvh;
+    }
+}
+
 html,
 body {
     width: 100%;
@@ -444,12 +455,6 @@ footer {
 
 }
 
-@media (max-width: 1000px) {
-    .fill {
-        background: #0e0e0e;
-        min-height: 100dvh;
-    }
-}
 
 .form-control {
     display: block;
