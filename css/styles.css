@@ -30,6 +30,30 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+*::-webkit-media-controls-panel {
+
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+  }
+  
+  *::--webkit-media-controls-play-button {
+  
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+  }
+  
+  *::-webkit-media-controls-start-playback-button {
+  
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+  }
+
 hr {
     max-width: 80px;
     border-width: 3px;
