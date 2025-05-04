@@ -386,6 +386,9 @@ footer {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #cd3838 ;
     }
+    #myVideo {
+        position: absolute;
+        top: -7%;
 }
 header {
     position: relative;
