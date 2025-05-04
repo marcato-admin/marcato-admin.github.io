@@ -300,7 +300,7 @@ footer {
 }
 
 
-@media(min-width:768px) {
+@media(min-width:767px) {
     .navbar-default {
         border-color: transparent;
         background-color: transparent;
@@ -308,8 +308,15 @@ footer {
     .btn {
         width: 100dvh;
     }
+    .fill {
+        scale: 150;
+    }
     
     }
+    @media (min-width:768px) {
+
+        
+        }
 
     .navbar-header > .navbar-brand {
         color: rgba(255,255,255,0.7);
@@ -361,7 +368,7 @@ footer {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #cd3838 ;
     }
-}
+
 
 header {
     position: relative;
