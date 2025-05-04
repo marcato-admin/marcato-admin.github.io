@@ -304,7 +304,11 @@ footer {
     .navbar-default {
         border-color: transparent;
         background-color: transparent;
-        min-height: 60px;
+        min-height: 60px;}
+    .btn {
+        width: 100dvh;
+    }
+    
     }
 
     .navbar-header > .navbar-brand {
