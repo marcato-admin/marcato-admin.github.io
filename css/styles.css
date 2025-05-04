@@ -119,8 +119,9 @@ p {
 }
 /* shop button */
 .container {
-    margin-left: 45%;
-    margin-right: 50%;
+    margin-left: 50%;
+    margin-right: auto;
+    position: absolute;
 }
 .btn {
     font-family: 'Anta';
@@ -299,24 +300,39 @@ footer {
     background-color: transparent;
 }
 
+@media only screen and (max-width: 767px) {
+
+    .body {
+        background-color: 0e0e0e;
+    }
+
+    .container {
+        position: relative;
+       margin-left: 25%;
+       margin-right: 0 auto;
+       margin-bottom: 20%;
+       margin-top: 0 auto;
+       scale: 1;
+       
+    }
+
+    #myVideo {
+        scale: 1.7;
+    }
+
+  }
+  
+
+
 
 @media(min-width:767px) {
     .navbar-default {
         border-color: transparent;
         background-color: transparent;
-        min-height: 60px;}
-    .btn {
-        width: 100dvh;
-    }
-    .fill {
-        scale: 150;
-    }
+        min-height: 60px;
     
     }
-    @media (min-width:768px) {
 
-        
-        }
 
     .navbar-header > .navbar-brand {
         color: rgba(255,255,255,0.7);
@@ -368,8 +384,7 @@ footer {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #cd3838 ;
     }
-
-
+}
 header {
     position: relative;
     min-height: 100dvh;
@@ -426,7 +441,7 @@ footer {
 }
 
 
-@media(min-width:768px) {
+@media(min-width:767px) {
     .icon-lg {
         font-size: 80px;
     }
