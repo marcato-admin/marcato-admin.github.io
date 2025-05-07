@@ -3,16 +3,16 @@
 @font-face {
     font-family: 'Anta';
     src:
-    url("fonts/Anta-Regular.ttf") format("truetype");
+    url("fonts/Anta-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 300;
 }
 @font-face {
     font-family: 'Orbitron';
     src:
-    url("fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
+    url("fonts/Orbitron.woff") format("woff");
     font-style: normal;
-    font-weight: 300;
+    font-weight: auto;
 }
 
 @media (max-width: 1000px) {
@@ -41,7 +41,7 @@ body {
 
 
 body {
-    font-family: 'Anta','Orbitron','Trebuchet MS';
+    font-family: 'Anta','Trebuchet MS';
     background-color: #0e0e0e;
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
@@ -109,13 +109,13 @@ a:focus {
 }
 
 h1 {
-    font-family: 'Orbitron';
+    font-family: 'Anta';
       font-weight: normal;
       font-style: normal;
 }
 
 h2,h3,h4,h5,h6 {
-    font-family: 'Anta';
+    font-family: 'Orbitron';
     font-weight: normal;
     font-style: normal;
 }
@@ -141,7 +141,7 @@ p {
     }
 }
 .btn {
-    font-family: 'Anta';
+    font-family: 'Orbitron';
     text-transform: uppercase;
   } 
    
