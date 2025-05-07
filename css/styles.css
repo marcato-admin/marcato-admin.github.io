@@ -316,9 +316,9 @@ footer {
 
     .container {
         position: relative;
-       margin-left: 25%;
+       margin-left: 0 auto;
        margin-right: 0 auto;
-       margin-bottom: 20%;
+       margin-bottom: 0 auto;
        margin-top: 0 auto;
        scale: 1;
        
@@ -327,7 +327,7 @@ footer {
     #myVideo {
         position: absolute;
         top: -10%;
-        scale: 1.7;
+        scale: 1;
         overflow-x: hidden;
         display:block;
     }
