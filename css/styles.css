@@ -14,6 +14,7 @@
 
 html {
     overflow-x: hidden !important;
+    scroll-behavior: smooth;
   }
 
 html,
@@ -115,6 +116,7 @@ p {
 .container {
     margin-left: .5dvw;
     margin-right: auto;
+    top: ;
     position: absolute;
     }
 }
