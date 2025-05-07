@@ -128,7 +128,7 @@ p {
 /* shop button */
 @media only screen and (max-width: 767px) {
 .container {
-    margin-left: .15dvw;
+    margin-left: .5dvw;
     margin-right: auto;
     position: absolute;
     }
@@ -416,7 +416,7 @@ footer {
 @media(max-width:767px) {
     header {
         position: relative;
-        min-height: 50dvh;
+        min-height: 35dvh;
         text-align: center;
         color: #fff;
         width: 100%;
