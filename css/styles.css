@@ -3,14 +3,14 @@
 @font-face {
     font-family: 'Anta';
     src:
-    url(fonts/Anta-Regular.woff) format("woff");
+    url("fonts/Anta-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: 300;
 }
 @font-face {
     font-family: 'Orbitron';
     src:
-    url(fonts/Orbitron.woff) format("woff");
+    url("fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
     font-style: normal;
     font-weight: 300;
 }
