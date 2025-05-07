@@ -329,6 +329,7 @@ footer {
         top: -10%;
         scale: 1.7;
         overflow-x: hidden;
+        display:block;
     }
 
   }
