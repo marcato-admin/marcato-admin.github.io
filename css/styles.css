@@ -328,7 +328,7 @@ footer {
         position: absolute;
         top: -10%;
         overflow-x: hidden;
-        max-width: 767px;
+        max-width: 1dvw;
         max-height: auto;
     }
 
