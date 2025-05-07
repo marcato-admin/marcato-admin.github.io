@@ -329,7 +329,6 @@ footer {
         top: -10%;
         scale: 1;
         overflow-x: hidden;
-        display:block;
         max-width: 100%;
         max-height: auto;
     }
