@@ -3,14 +3,14 @@
 @font-face {
     font-family: 'Anta';
     src:
-    url(./fonts/Anta-Regular.ttf) format(truetype);
+    url(fonts/Anta-Regular.woff) format("woff");
     font-style: normal;
     font-weight: 300;
 }
 @font-face {
     font-family: 'Orbitron';
     src:
-    url(./fonts/Orbitron-VariableFont_wght.ttf) format(truetype);
+    url(fonts/Orbitron.woff) format("woff");
     font-style: normal;
     font-weight: 300;
 }
@@ -41,7 +41,7 @@ body {
 
 
 body {
-    font-family: 'Anta','Orbitron';
+    font-family: 'Anta','Orbitron','Trebuchet MS';
     background-color: #0e0e0e;
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
