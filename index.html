@@ -35,7 +35,7 @@
         </div>
         <div class="fill">
         <video playsinline autoplay loop muted id="myVideo">
-            <source src="assets/compressedpixelate.mp4" type="video/mp4">
+            <source src=" " type="video/mp4">
           </video>
         </div>
     </header>
@@ -130,4 +130,26 @@
         </div>
     </footer>
   </body>
+  <script>
+
+    window.onload = (event) => { myFunction( event ) };
+    
+    function myFunction( event ) 
+    {
+      
+     let myVideo = document.getElementById("myVideo");
+     
+     //# if BIGGER THAN
+     if ( screen.width > 767 ) { myVideo.src = "assets/compressedpixelate.mp4"; }
+     
+     //# if SMALLER THAN or EQUAL-TO
+     if ( screen.width <= 767 ) { myVideo.src = "assets/compressedpixelate-small.mp4"; }
+     
+     //# load URL (for playback)
+     myVideo.load();
+      
+    }
+    
+    </script>
+    
 </html>
