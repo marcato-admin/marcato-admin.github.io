@@ -327,6 +327,7 @@ footer {
     #myVideo {
         position: absolute;
         top: -10%;
+        scale: .8;
         overflow-x: hidden;
         max-width: 1dvw;
         max-height: auto;
