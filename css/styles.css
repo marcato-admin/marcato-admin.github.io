@@ -252,7 +252,7 @@ footer {
 .navbar-default {
     border-color: rgba(35,35,35,.05);
     font-family: 'Anta';
-    background-color: #222;
+    background-image: linear-gradient(to right, #222 , #111111);
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
@@ -307,7 +307,7 @@ footer {
 @media only screen and (max-width: 767px) {
 
     .body {
-        background-color: 0e0e0e;
+        background-color: #0e0e0e;
     }
 
     .container {
@@ -701,7 +701,7 @@ fieldset[disabled] .btn-default.active {
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
-    background: ##222;
+    background: #222;
 }
 
 ::selection {
