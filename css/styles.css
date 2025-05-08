@@ -737,11 +737,13 @@ img::-moz-selection {
     background: 0 0;
 }
 
+
+/* log specific css*/
 .log-header {
     margin-top: 2.35%;
     text-align: center;
+
 }
-/* log specific css*/
 #logs {
     position: relative;
     min-height: 100vh;
@@ -751,8 +753,8 @@ img::-moz-selection {
     
 
     margin-top: 0 auto;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
 
     border: dashed 3px #e5e5e5;
     border-width: 1px;
@@ -764,8 +766,9 @@ img::-moz-selection {
     embed{
         font-family: 'Jersey 10';
         font-size: 200%;
-        margin-left: 1.5%;
+        margin-left: 3%;
         width: 95%;
         height: 70dvh;
     }
 }
+
