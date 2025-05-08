@@ -329,6 +329,9 @@ footer {
         max-width: auto;
         max-height: auto;
     }
+    .navbar-header {
+        background-image: linear-gradient(to right, #222 , #111111);
+    }
 
   }
   
@@ -369,7 +372,7 @@ footer {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #222;
+        background-image: linear-gradient(to right, #222 , #111111);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -698,7 +701,7 @@ fieldset[disabled] .btn-default.active {
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
-    background: #222;
+    background: ##222;
 }
 
 ::selection {
