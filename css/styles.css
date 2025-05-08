@@ -209,7 +209,7 @@ p {
 
 .bg-dark {
     color: #eee;
-    background-color: #222;
+    background-image: linear-gradient(to right, #222 , #111111);
 }
 
 .cursive {
@@ -252,7 +252,7 @@ footer {
 .navbar-default {
     border-color: rgba(35,35,35,.05);
     font-family: 'Anta';
-    background-image: linear-gradient(to right, #222 , #111111);
+    background-image: linear-gradient(to right, #222 , #111);
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
@@ -330,7 +330,7 @@ footer {
         max-height: auto;
     }
     .navbar-header {
-        background-image: linear-gradient(to right, #222 , #111111);
+        background-image: linear-gradient(to right, #222 , #111);
     }
 
   }
@@ -372,7 +372,7 @@ footer {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-image: linear-gradient(to right, #222 , #111111);
+        background-image: linear-gradient(to right, #222 , #111);
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
